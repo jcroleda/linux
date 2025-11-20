@@ -1,0 +1,12 @@
+What:		/sys/class/leds/<led>/aux1_dac
+What:		/sys/class/leds/<led>/aux2_dac
+What:		/sys/class/leds/<led>/aux3_dac
+What:		/sys/class/leds/<led>/aux4_dac
+Date:		November 2025
+KernelVersion:	6.19
+Contact:	Jan Carlo Roleda <jancarlo.roleda@analog.com>
+Description:	LTC3208 AUX1 pin Brightness level select where it mirrors:
+		0 - AUX Brightness
+		1 - MAIN Brightness
+		2 - SUB Brightness
+		3 - CAM Brightness
